@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+    background: linear-gradient(to right, #6db7fc, #1953cf);
+}
+
+h1{
+    text-align: center;
+}
+
+input{
+    font-size: 50px;
+    border: none;
+    width: 350px;
+    height: 100px;
+    text-align: right;
+    border-radius: 18px;
+    background-color: #ffffff;
+}
+
+.calculadora button{
+    
+    width: 85px;
+    height: 85px;
+    color: rgb(73, 71, 71);
+    background:#c3e1fd;
+    font-size: 40px;
+    place-items: center;
+    border: 10px;
+    border-radius: 20px;    
+}
